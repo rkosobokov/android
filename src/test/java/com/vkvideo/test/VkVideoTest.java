@@ -116,7 +116,7 @@ public class VkVideoTest {
             System.out.println("Изначальный прогресс: " + initialProgress);
 
             // Ожидаем 15 сек
-            System.out.println("Ожидаем 10 секунд воспроизведения...");
+            System.out.println("Ожидаем 15 секунд воспроизведения...");
             Thread.sleep(15000);
 
             // Получаем конечный прогресс
