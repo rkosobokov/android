@@ -53,7 +53,7 @@ public class AlchemyTest {
         String hints = $(AppiumBy.xpath("//x2.f1/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View//android.widget.TextView"))
                 .shouldBe(visible, Duration.ofSeconds(30))
                 .getText();
-        System.out.println("Первое значение" + hints);
+        System.out.println("Первое значение " + hints);
         $(AppiumBy.xpath("//android.widget.TextView[@text=\"Watch\"]"))
                 .shouldBe(visible)
                 .click(tap());
@@ -67,11 +67,11 @@ public class AlchemyTest {
 
 // Проверить видимость
         element.shouldBe(visible);
-        System.out.println("✓ Элемент видим");
+        System.out.println("Элемент найден");
 
 // Явно кликнуть
         element.click();
-        System.out.println("✓ Клик выполнен");
+        System.out.println("Клик выполнен");
         Thread.sleep(20000);
 
         // Реклама 2: Найти элемент
@@ -81,11 +81,11 @@ public class AlchemyTest {
 
 //  Проверить видимость
         element2.shouldBe(visible);
-        System.out.println("✓ Элемент видим");
+        System.out.println("Элемент найден");
 
 // Явно кликнуть
         element2.click();
-        System.out.println("✓ Клик выполнен");
+        System.out.println("Клик выполнен");
         Thread.sleep(20000);
 
 
@@ -96,11 +96,11 @@ public class AlchemyTest {
 
 //  Проверить видимость
         element3.shouldBe(visible);
-        System.out.println("✓ Элемент видим");
+        System.out.println("Элемент найден");
 
 // Явно кликнуть
         element3.click();
-        System.out.println("✓ Клик выполнен");
+        System.out.println("Клик выполнен");
         Thread.sleep(20000);
 
         String hints2 = $(AppiumBy.xpath("//x2.f1/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View//android.widget.TextView"))
