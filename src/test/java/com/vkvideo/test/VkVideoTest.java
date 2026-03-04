@@ -70,8 +70,8 @@ public class VkVideoTest {
         System.out.println("Изначальный прогресс: " + initialProgress);
 
         //Ожидаем 15 сек
-        System.out.println("Ожидаем 10 секунд воспроизведения...");
-        Thread.sleep(10000);
+        System.out.println("Ожидаем 15 секунд воспроизведения...");
+        Thread.sleep(15000);
 
         //Получаем конечный прогресс
         $(AppiumBy.xpath("//android.widget.FrameLayout[@resource-id=\"com.vk.vkvideo:id/video_subtitles\"]"))
@@ -117,7 +117,7 @@ public class VkVideoTest {
 
             // Ожидаем 15 сек
             System.out.println("Ожидаем 10 секунд воспроизведения...");
-            Thread.sleep(10000);
+            Thread.sleep(15000);
 
             // Получаем конечный прогресс
             $(AppiumBy.xpath("//android.widget.FrameLayout[@resource-id=\"com.vk.vkvideo:id/video_subtitles\"]"))
